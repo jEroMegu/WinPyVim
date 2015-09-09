@@ -29,5 +29,8 @@ function MyDiff()
 endfunction
 
 colorscheme desert
-
 set nu
+execute pathogen#infect()
+filetype plugin on
+
+
